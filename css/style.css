@@ -1,0 +1,124 @@
+/* Author  : Anjali Soman
+Date    : 05-01-23 */
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    border-top: solid 5px #0091ff;
+    position: relative;
+}
+
+.container{
+    width: 950px;
+    margin: auto;
+}
+
+.heading{
+    /* padding: 25px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.artaside{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.artaside aside{
+    align-self: flex-start;
+}
+
+.blueclr{
+    color: #0091ff;
+}
+
+.fontlarger{
+    font-size: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.smallfont{
+    font-size: 20px;
+}
+
+.imgpost{
+    width: 650px;
+}
+
+.imgsmall{
+    width: 50px;
+    height: 50px;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #0091ff;
+    font-size: small;
+}
+
+.heading{
+    background-color: #f2eff5;
+}
+
+.div2{
+    position: relative;
+}
+
+.top{
+    font-weight: bold;
+    position: absolute;
+    top: -55px;
+    right: -20px;
+}
+
+.div4{
+    border-top: solid 5px #0091ff;
+    border-bottom: solid 5px #0091ff;
+    background-color: #f2eff5;
+    width: 180px;
+    /* height: 400px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.fs{
+    font-size: 12px;
+}
+
+.as1{
+    display: flex;
+    margin-top: 30px;
+}
+
+.div4 p{
+    display: inline;
+}
+
+.div4 h4{
+    text-align: center;
+}
+
+.lbutton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer{
+    text-align: center;
+}
